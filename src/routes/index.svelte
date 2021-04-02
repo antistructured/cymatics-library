@@ -1,23 +1,19 @@
 <script lang="ts">
-	import Counter from '$lib/Counter.svelte';
+
 </script>
 
-<main>
-	<h1>Hello world!</h1>
-
-	<Counter />
-
-	<p>Visit <a class="text-blue-600 underline" href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte apps.</p>
+<main class="text-center p-4 mx-auto">
+	<h1 class="uppercase text-6xl font-thin leading-tight my-16 mx-auto max-w-xs">Cymatics Library</h1>
 </main>
 
 <style style lang="postcss">
-	main {
+	/* main {
 		@apply text-center;
 		@apply p-4;
 		@apply mx-auto;
-	}
+	} */
 
-	h1 {
+	/* h1 {
 		@apply text-red-600;
 		@apply uppercase;
 		@apply text-6xl;
@@ -25,20 +21,10 @@
 		@apply leading-tight;
 		@apply my-16 mx-auto;
 		@apply max-w-xs;
-	}
-
-	p {
-		@apply max-w-xs;
-		@apply my-8 mx-auto;
-		@apply leading-snug;
-	}
+	} */
 
 	@screen sm {
 		h1 {
-			@apply max-w-none;
-		}
-
-		p {
 			@apply max-w-none;
 		}
 	}
